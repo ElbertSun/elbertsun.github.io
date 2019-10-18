@@ -1,0 +1,94 @@
+body{
+	background-color: grey;
+	background-image: url(10.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}		
+
+header{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.head{
+	float: left;
+	color: black;
+	font-family: cursive;
+}
+
+nav ul{
+	background-color: white;
+	border: double black 5px;
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	float: right;
+}
+
+li{
+	display: inline;
+	padding: 1rem;
+}
+
+li a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+.active{
+	color: grey;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 1%;
+}
+
+.container h1{
+	color :black;
+	font-family: cursive;
+	text-align: center;	
+}
+
+.container h3{
+	color: black;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.category{
+	color: #fff;
+	margin-top: 5%;
+	display: flex;
+	text-align: center;
+	font-family: cursive;
+}
+
+img{
+	width: 35%;
+	border-radius: 50%;	
+}
+
+.snack, .grill{
+	padding-left: 1rem;
+}
+
+h4{
+	font-size: 1.5rem; /*1rem=16px	*/
+	margin: 3px;
+}
+
+.btn{
+	background-color: gold;
+	padding: 1rem;
+	border: none;
+	border-radius: 8px;
+	margin-left: 45%;	
+}
